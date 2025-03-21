@@ -6,5 +6,8 @@
 
 # Algorithm:
 # 1. Prompt the user to input a complete statement.
-# 3. Count the number of character in the resulting list including spaces.
+fullname = str(input("Enter a fullname: "))
+# 3. Count the number of words in the resulting list including spaces.
+count_characters = len(fullname) 
 # 4. Print the total word count.
+print(f"Output: {count_characters}")
