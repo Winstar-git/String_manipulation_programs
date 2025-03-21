@@ -4,9 +4,13 @@
 # Input: 143
 # Output: 000143
 
-# Algorithm:
 # 1. Start a while loop.
+while True:
+    try:
 # 2. Prompt the user to input a number (0-1000).
+        number = int(input("Enter a number (0-1000): "))
+        if 0 <= number <= 1000:
+            print(f"Output: {number:06}")
 # 3. Limit the input number from 0-1000
 # 4. If valid, print the number in 6-digit format (padded with leading zeros) and break the loop.
 # 6. If invalid, display an error message asking for a number between 0 and 1000.
